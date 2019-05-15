@@ -49,10 +49,15 @@ namespace WpfApp1.Core
                 // Create an action that will launch Notepad whenever the trigger fires
                 td.Actions.Add(new ExecAction("wscript.exe", arguments));
                 //td.Actions.Add(new ExecAction($@"{BasePath}\proxy.bat"));
-
+                
                 string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
                 // Register the task in the root folder
                 ts.RootFolder.RegisterTaskDefinition("GitProxyController", td);
+
+
+                //run task
+                var task = ts.FindTask("GitProxyController");
+                task.Run();
             }
         }
 

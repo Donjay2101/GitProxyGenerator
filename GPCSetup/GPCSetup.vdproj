@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_0CECD7D99EEB747B4ECFB83A0C9D2DBF"
+        "OwnerKey" = "8:_0FD944C632634D3E887346FE2A7DBE03"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0FD944C632634D3E887346FE2A7DBE03"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -40,19 +46,19 @@
         "Entry"
         {
         "MsmKey" = "8:_2DB57FBC5DEF15C61B583E62293B070D"
-        "OwnerKey" = "8:_331E41AC142F4B5E8A30EA584E4D1285"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_331E41AC142F4B5E8A30EA584E4D1285"
-        "OwnerKey" = "8:_0FD944C632634D3E887346FE2A7DBE03"
+        "OwnerKey" = "8:_0CECD7D99EEB747B4ECFB83A0C9D2DBF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_59B4146F59D7FB62BAB5505330EFF62F"
         "OwnerKey" = "8:_0FD944C632634D3E887346FE2A7DBE03"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_59B4146F59D7FB62BAB5505330EFF62F"
+        "OwnerKey" = "8:_0CECD7D99EEB747B4ECFB83A0C9D2DBF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -63,13 +69,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_59B4146F59D7FB62BAB5505330EFF62F"
-        "OwnerKey" = "8:_331E41AC142F4B5E8A30EA584E4D1285"
+        "MsmKey" = "8:_9AE04750DFC94F2FAC27DC48DB56F03D"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9AE04750DFC94F2FAC27DC48DB56F03D"
+        "MsmKey" = "8:_9BD51F634CF64284AD678EDEEF03417A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -88,19 +94,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_59B4146F59D7FB62BAB5505330EFF62F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_0FD944C632634D3E887346FE2A7DBE03"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_331E41AC142F4B5E8A30EA584E4D1285"
+        "OwnerKey" = "8:_0CECD7D99EEB747B4ECFB83A0C9D2DBF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -113,6 +113,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_2DB57FBC5DEF15C61B583E62293B070D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_59B4146F59D7FB62BAB5505330EFF62F"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -133,6 +139,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -149,6 +171,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -196,6 +234,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0CECD7D99EEB747B4ECFB83A0C9D2DBF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Win32.TaskScheduler, Version=2.8.11.0, Culture=neutral, PublicKeyToken=c416bc1b32d97233, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_0CECD7D99EEB747B4ECFB83A0C9D2DBF"
+                    {
+                    "Name" = "8:Microsoft.Win32.TaskScheduler.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.Win32.TaskScheduler.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1EC7E9A3B7DF4BD1BFCA6537166638DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1E62193A059B4DE8BED01BB11BA1985C"
@@ -260,37 +329,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_331E41AC142F4B5E8A30EA584E4D1285"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Win32.TaskScheduler, Version=2.8.11.0, Culture=neutral, PublicKeyToken=c416bc1b32d97233, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_331E41AC142F4B5E8A30EA584E4D1285"
-                    {
-                    "Name" = "8:Microsoft.Win32.TaskScheduler.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Win32.TaskScheduler.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1EC7E9A3B7DF4BD1BFCA6537166638DD"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_59B4146F59D7FB62BAB5505330EFF62F"
             {
             "AssemblyRegister" = "3:1"
@@ -326,6 +364,26 @@
             {
             "SourcePath" = "8:..\\WpfApp1\\constants\\first.bat"
             "TargetName" = "8:first.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_F61BD6A067B74E35900304706B58BB05"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9BD51F634CF64284AD678EDEEF03417A"
+            {
+            "SourcePath" = "8:..\\WpfApp1\\constants\\code.csv"
+            "TargetName" = "8:code.csv"
             "Tag" = "8:"
             "Folder" = "8:_F61BD6A067B74E35900304706B58BB05"
             "Condition" = "8:"
@@ -461,7 +519,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:GPCSetup"
         "ProductCode" = "8:{349590DB-A489-4CAA-B916-624DE20B90B9}"
-        "PackageCode" = "8:{221C15DF-07FD-4AE9-B167-07BA65DCE8EC}"
+        "PackageCode" = "8:{33700C53-1430-4C04-A376-28446E756A82}"
         "UpgradeCode" = "8:{67FBF0A1-6746-431E-B4F4-70717257F64F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
